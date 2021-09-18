@@ -1,0 +1,77 @@
+1st Assignment C++
+
+Sourav Bhunia , DCST , 10005529
+
+01>> simple calculation(Add,sub,mul,div)
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cout<<"Enter two number one by one\n";
+    cin>>a>>b;
+    cout<<"The summation of two number is: "<<a+b<<endl;
+    cout<<"The substraction of two number is: "<<a-b<<endl;
+    cout<<"The multiplication of two number is: "<<a*b<<endl;
+    cout<<"The division of two number is: "<<(float)a/b<<endl;
+    return 0;
+}
+
+02>> find max and min.
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cout<<"Enter two number one by one:\n";
+    cin>>a>>b;
+    if(a>b)
+    {
+        cout<<a<<" is greater than "<<b;
+    }
+    else{
+        cout<<b<<" is greater than "<<a;
+    }
+    return 0;
+}
+
+03>> multiplication table 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,i;
+    cout<<"Enter the number of which you want to make a table:\n";
+    cin>>a;
+    for ( i = 1; i <= 10; i++)
+    {
+        
+        cout<<a<<"*"<<i<<"="<<a*i<<endl;
+        
+    }
+    return 0;
+}
+
+04>> factorial determination.
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, i, fact = 1;
+    cout << "Enter the nuber to determine factorial:" << endl;
+    cin >> a;
+    for (i = 1; i <= a; i++)
+    {
+        fact = fact * i;
+    }
+    cout << "Factorial of " << a << " is =" << fact;
+
+    return 0;
+}
+
